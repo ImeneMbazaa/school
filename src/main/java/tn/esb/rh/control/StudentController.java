@@ -14,7 +14,7 @@ import tn.esb.rh.service.IStudentService;
 @CrossOrigin(allowedHeaders="*",origins="*")
 public class StudentController {
 
-
+	//test
 	private IStudentService studentService;
 
 	@PostMapping("/registerStudent")
