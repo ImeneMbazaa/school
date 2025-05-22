@@ -17,7 +17,7 @@ services:
   app-school:
     depends_on:
       - mysqldb
-    image: maynou/school:1.0.0git
+    image: maynou/school:1.0.0
     #build : ./
     restart: on-failure
     ports:
